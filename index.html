@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="description" content="Weather-Based-Website">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="main">
+           <div class="first-head"><h1>Weather-Info-Website</h1></div> 
+            <div class="sec-head"><h3>Select State | City</h3></div>
+            <input type="text" id="city" placeholder="Enter City Name">
+            <input type="submit" value="Get Updates" id="input">
+            <!--<div class="label-state-city"><label for="state" id="st1">State</label>
+            <label for="city" id="ct1">City</label>-->
+            <!--<div class="text-state-city"><select id="state"></select> <select id="city"></select></div>-->
+            <div id="info">
+                <span id="cityName"></span>
+                <span id="temp"></span>
+                <span id="main"></span>
+                <img id="image" src="https://openweathermap.org/img/wn/02n@2x.png">
+            </div></div>
+        </div>
+        <script src="weather.js"></script>
+    </body>
+    
+</html>
